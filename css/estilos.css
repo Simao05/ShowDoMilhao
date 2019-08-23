@@ -1,0 +1,189 @@
+.SdM_imagem_fundo{
+width: 100%;
+height: 100%;
+position: absolute;
+}
+
+.SdM_imagem_fundo img{
+width: 100%;
+height: 100%;
+}
+
+.SdM_Form_Questoes{
+position: absolute;
+z-index: 2;
+height: 400px;
+width: 60%;
+top: 20%;
+left: 20%;
+background-color: rgb(230, 230, 230);
+border-top: solid 3px rgb(170, 170, 170);;
+border-right: solid 3px rgb(190, 190, 190);;
+border-bottom: solid 3px rgb(130, 130, 130);
+border-left: solid 3px rgb(110, 110, 110);
+border-radius: 10px;
+}
+
+.SdM_Form_Questoes input{
+display: none;
+}
+
+.SdM_Valor{
+height: 40px;
+width: 100%;
+text-align: center;
+line-height: 40px;
+}    
+
+.SdM_Questao{
+height: 80px;
+width: 100%;
+position: relative;
+}
+
+.SdM_Questao_text{
+height: 50px;
+width: 94%;
+left: 3%;
+top: 13px;
+position: absolute;
+line-height: 50px;
+text-align: center;
+border-radius: 10px;
+border-bottom: solid 2px rgb(120, 120, 120);
+border-left: solid 2px rgb(150, 150, 150);
+border-right: solid 2px rgb(160, 160, 160);
+border-top: solid 2px rgb(180, 180, 180);
+background-color: rgb(220, 220, 220); 
+}
+
+.SdM_Alternativas{
+height: 200px;
+width: 100%;
+}
+
+.SdM_Alternativa{
+height: 40px;
+margin-left: 5%;
+margin-top: 3px;
+margin-bottom: 3px;
+width: 90%;
+line-height: 40px;
+border-radius: 20px;
+border-bottom: solid 2px rgb(120, 120, 120);
+border-left: solid 2px rgb(150, 150, 150);
+border-right: solid 2px rgb(160, 160, 160);
+border-top: solid 2px rgb(180, 180, 180);
+background-color: rgb(220, 220, 220); 
+cursor: pointer;
+}
+
+.SdM_Alternativa div{
+height: 26px;
+width: 26px;
+margin: 7px;
+line-height: 26px;
+text-align: center;
+cursor: pointer;
+border-radius: 100%;
+border-bottom: solid 2px rgb(90, 90, 90);
+border-left: solid 2px rgb(120, 120, 120);
+border-right: solid 2px rgb(110, 110, 110);
+border-top: solid 2px rgb(140, 140, 140);
+background-color: rgb(200, 200, 200); 
+float: left;
+}
+
+.SdM_Responder{
+height: 80px;
+width: 100%;
+position: relative;
+}
+
+.SdM_button_escolha{
+position: absolute;
+bottom: 10px;
+right: 10px;
+background-color:#013765;
+height: 50px;
+width: 100px;
+text-align: center;
+line-height: 50px;
+border-left: solid 3px rgba(153, 217, 234, 0.8);
+border-bottom: solid 3px rgba(153, 217, 234, 0.8);
+border-radius: 20px;
+z-index: 2;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: #fff;
+cursor: pointer;   
+}
+
+.SdM_button{
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -50px;
+margin-left: -150px;
+background-color:#013765;
+height: 100px;
+width: 300px;
+text-align: center;
+line-height: 100px;
+border-top: solid 3px #FFF;
+border-bottom: solid 3px #FFF;
+border-radius: 20px;
+z-index: 2;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+color: #fff;
+cursor: pointer;
+}
+
+.SdM_button input{
+display: none;
+}
+
+.SdM_imagem_logo{
+position: absolute;
+margin: 10px;
+z-index: 2;    
+}
+
+.SdM_imagem_logo img{
+border-radius: 10px;
+}
+
+.SdM_rodape{
+position: absolute;
+bottom: 0px;
+z-index: 2;
+border-top: solid 3px rgb(63, 59, 59);
+height: 40px;
+width: 100%;
+background-color: rgb(226, 217, 217);
+}
+
+.SdM_ETEC{
+width: 56%;
+height: 36px;;
+margin-left: 2%;
+border-right: solid 2px #fff;
+margin-bottom: 2px;
+margin-top: 2px;
+line-height: 36px;
+font-size: 18px;
+float: left;
+}
+
+.SdM_Alunos {
+width: 38%;
+height: 36px;;
+font-size: 18px;
+margin-right: 2%;
+margin-bottom: 2px;
+margin-top: 2px;
+line-height: 36px;
+text-align:right; 
+float: left;
+}
