@@ -1,10 +1,10 @@
 $(function(){
 
-    $('.SdM_Alternativa').click(function(){
+    $('.SdM_Alternativa div').click(function(){
 
 		$('.SdM_Alternativas div div').css({'background-color':'rgb(200, 200, 200)'});
 
-		$(this).find('div').css({'background-color':'rgb(100, 230, 100)'});
+		$(this).css({'background-color':'rgb(100, 230, 100)'});
 
     });
 	

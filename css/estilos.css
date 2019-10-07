@@ -25,9 +25,9 @@ border-radius: 10px;
 }
 
 .SdM_Form_Questoes input{
-display: none;
+    display: none;
 }
-
+    
 .SdM_Valor{
 height: 40px;
 width: 100%;
@@ -75,10 +75,10 @@ border-left: solid 2px rgb(150, 150, 150);
 border-right: solid 2px rgb(160, 160, 160);
 border-top: solid 2px rgb(180, 180, 180);
 background-color: rgb(220, 220, 220); 
-cursor: pointer;
 }
 
 .SdM_Alternativa div{
+cursor: pointer;
 height: 26px;
 width: 26px;
 margin: 7px;

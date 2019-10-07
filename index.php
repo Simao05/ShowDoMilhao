@@ -22,24 +22,7 @@ include('Conexao.php');
     <div class="SdM_imagem_logo">
         <img src="img/logo2.jpg">
     </div>
-    <audio id="audio" onended="stop()">
-        <source src="audio/0.mp3" type="audio/mpeg" />
-    </audio> 
 <script>
-    audio = document.getElementById('audio');
-
-    function play(){
-
-        audio.play();
-        $('#label').css({'display':'none'});
-        
-    }
-
-    function stop(){
-
-        $('#button').click();
-        
-    }
 
     function stop_questao(){
 
@@ -50,7 +33,7 @@ include('Conexao.php');
 
 </script>
 <?php
-    
+
     if(isset($_POST['enviar'])){
 
         if($_POST['enviar']=='comecar'){
@@ -224,7 +207,7 @@ include('Conexao.php');
                     
                     <label for="SdM_Alternativa_B">
 
-                        <div id="SdM_Alternativa_Selecionada_B">
+                        <div id="SdM_Alternativa_Selecionada_B" > 
 
                             B
 
@@ -313,8 +296,20 @@ include('Conexao.php');
     if($acao == 'inicio'){
 
 ?>
-    <form name="comecar_jogo" action="#" method="POST">
-        <label onclick="play()" id="label">
+<script>
+    
+window.onload = function(){
+    audio = document.getElementById('audio_inicial');
+    audio.play();
+}
+
+</script>
+    <audio id="audio_inicial">
+        <source src="audio/0.mp3" type="audio/mpeg" />
+    </audio> 
+
+    <form name="comecar_jogo" action="#" method="post">
+        <label for="button" id="label">
             <div class="SdM_button">
                 Começar!
             </div>
